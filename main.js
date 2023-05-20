@@ -189,7 +189,9 @@ let step = () => {
         if (n < originalString.length) {
             n += 1;
             step();
-        }
+        } else {
+			window.location.href="love.html"
+		}
     }, 1)
 
 }
